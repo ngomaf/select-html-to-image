@@ -32,14 +32,3 @@ form input[type=radio]:checked + label img {
     border: 8px solid green;
     width: 240px;
 }
-
-/*
-#rosa:checked + label img {
-    border: 8px solid green;
-    width: 240px;
-}
-
-#azul:checked + label img {
-    border: 8px solid green;
-    width: 240px;
-}*/
