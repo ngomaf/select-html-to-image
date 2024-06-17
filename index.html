@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fortwork.ico" rel="icon" type="image/png" />
     <link rel="stylesheet" href="css/style.css">
     <title>Form de selecção de imagem</title>
 </head>
@@ -14,22 +15,30 @@
             <legend>Escolha a cor:</legend>
 
             <div class="elementos">
-                <input type="radio" name="cor" value="verde" id="verde" checked>
+                <input type="radio" name="cor" value="laranja" id="laranja" checked>
+                <label for="laranja">
+                    <img src="produtos/cenoura-laranja.png" alt="Cenoura laranja">
+                </label>
+
+                <input type="radio" name="cor" value="verde" id="verde">
                 <label for="verde">
-                    <img src="produtos/produto1-verde.png" alt="Cenoura verde">
+                    <img src="produtos/cenoura-verde.png" alt="Cenoura verde">
                 </label>
 
-                <input type="radio" name="cor" value="rosa" id="rosa">
-                <label for="rosa">
-                    <img src="produtos/produto1-vermelho.png" alt="Cenoura ciano">
-                </label>
-
-                <input type="radio" name="cor" value="azul" id="azul">
-                <label for="azul">
-                    <img src="produtos/produto1-azul.png" alt="Cenoura azul">
+                <input type="radio" name="cor" value="vermelha" id="vermelha">
+                <label for="vermelha">
+                    <img src="produtos/cenoura-vermelha.png" alt="Cenoura vermelha">
                 </label>
             </div>
         </fieldset>
+        <div class="right">
+            <h2>Cenoura</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione, recusandae assumenda, soluta id illum dignissimos repellat repellendus eligendi tempore nemo nesciunt? Molestiae eum quidem modi labore ipsam fuga magnam!
+            </p>
+
+            <button type="submit">Comprar</button>
+        </div>
     </form>
 </body>
 </html>

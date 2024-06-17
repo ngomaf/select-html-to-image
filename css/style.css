@@ -1,6 +1,51 @@
-* {
+
+@font-face{
+    font-family: 'poppins' ;
+    src:url('Poppins-Regular.ttf') ;
+}
+
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font: normal 14pt "poppins";
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    color: blueviolet;
+    font-size: 20pt;
+    margin: 20px 0 10px;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+h2 {
+    font-size: 22pt;
+}
+
+button {
+    font: normal 12pt "poppins";
+    border: none;
+    border-radius: 30px;
+    padding: 15px 60px;
+    background: blueviolet;
+    color: #fff;
+
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6909c2;
 }
 
 .margem {
@@ -12,6 +57,13 @@
     width: 250px;
     overflow: hidden;
     overflow-x: scroll;
+    border: none;
+
+    float: left;
+}
+
+fieldset legend {
+    color: #a473d2;
 }
 
 .margem .elementos {
@@ -29,6 +81,18 @@ label img {
 }
 
 form input[type=radio]:checked + label img {
-    border: 8px solid green;
+    border: 8px solid blueviolet;
+    border-radius: 5px;
     width: 240px;
+}
+
+form .right {
+    width: 650px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+form .right button {
+    margin-top: 15px;
 }
